@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>846506539351-0m026tmeilmmg17djeedgfsfrtnn31al.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.846506539351-0m026tmeilmmg17djeedgfsfrtnn31al</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>846506539351-9bids8vskrltd8u5u4ug2k3bvmo6nb8m.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyApI99NmosCS2Ovv-9ERp_bOWNJV4Ajb-A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>846506539351</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.team.sear.KCPT-IOS</string>
+	<key>PROJECT_ID</key>
+	<string>kcpt-1928</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kcpt-1928.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:846506539351:ios:ed18a371df105efbcaa612</string>
+	<key>DATABASE_URL</key>
+	<string>https://kcpt-1928.firebaseio.com</string>
+</dict>
+</plist>

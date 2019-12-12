@@ -7,16 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1CCBA923A2566300006B5B /* web_hi_res_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1CCBA823A2566300006B5B /* web_hi_res_512.png */; };
 		3F3768DB23A2214600BABC3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3768DA23A2214600BABC3A /* AppDelegate.swift */; };
 		3F3768DD23A2214600BABC3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3768DC23A2214600BABC3A /* SceneDelegate.swift */; };
 		3F3768DF23A2214600BABC3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3768DE23A2214600BABC3A /* ViewController.swift */; };
 		3F3768E223A2214600BABC3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3768E023A2214600BABC3A /* Main.storyboard */; };
 		3F3768E423A2214700BABC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3768E323A2214700BABC3A /* Assets.xcassets */; };
 		3F3768E723A2214700BABC3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3768E523A2214700BABC3A /* LaunchScreen.storyboard */; };
+		3F3768F523A228BD00BABC3A /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3768F423A228BD00BABC3A /* ic_launcher.png */; };
+		3F3768F723A22BC000BABC3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3768F623A22BC000BABC3A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3FE7A0D423A23BDF00CBCA19 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		3F3768D723A2214600BABC3A /* KCPT-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KCPT-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1CCBA823A2566300006B5B /* web_hi_res_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_hi_res_512.png; sourceTree = "<group>"; };
+		3F1CCBD623A2574900006B5B /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		3F1CCBD723A2574C00006B5B /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		3F3768D723A2214600BABC3A /* КЦПТ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "КЦПТ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3768DA23A2214600BABC3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F3768DC23A2214600BABC3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3F3768DE23A2214600BABC3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +43,8 @@
 		3F3768E323A2214700BABC3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3768E623A2214700BABC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3768E823A2214700BABC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3768F423A228BD00BABC3A /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		3F3768F623A22BC000BABC3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +61,8 @@
 		3F3768CE23A2214600BABC3A = {
 			isa = PBXGroup;
 			children = (
+				3F1CCBD623A2574900006B5B /* Firebase.h */,
+				3F1CCBD723A2574C00006B5B /* module.modulemap */,
 				3F3768D923A2214600BABC3A /* KCPT-IOS */,
 				3F3768D823A2214600BABC3A /* Products */,
 			);
@@ -48,7 +71,7 @@
 		3F3768D823A2214600BABC3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F3768D723A2214600BABC3A /* KCPT-IOS.app */,
+				3F3768D723A2214600BABC3A /* КЦПТ.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +82,9 @@
 				3F3768DA23A2214600BABC3A /* AppDelegate.swift */,
 				3F3768DC23A2214600BABC3A /* SceneDelegate.swift */,
 				3F3768DE23A2214600BABC3A /* ViewController.swift */,
+				3F1CCBA823A2566300006B5B /* web_hi_res_512.png */,
+				3F3768F623A22BC000BABC3A /* GoogleService-Info.plist */,
+				3F3768F423A228BD00BABC3A /* ic_launcher.png */,
 				3F3768E023A2214600BABC3A /* Main.storyboard */,
 				3F3768E323A2214700BABC3A /* Assets.xcassets */,
 				3F3768E523A2214700BABC3A /* LaunchScreen.storyboard */,
@@ -77,6 +103,7 @@
 				3F3768D323A2214600BABC3A /* Sources */,
 				3F3768D423A2214600BABC3A /* Frameworks */,
 				3F3768D523A2214600BABC3A /* Resources */,
+				3FE7A0D423A23BDF00CBCA19 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +111,7 @@
 			);
 			name = "KCPT-IOS";
 			productName = "KCPT-IOS";
-			productReference = 3F3768D723A2214600BABC3A /* KCPT-IOS.app */;
+			productReference = 3F3768D723A2214600BABC3A /* КЦПТ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,8 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3768E723A2214700BABC3A /* LaunchScreen.storyboard in Resources */,
+				3F1CCBA923A2566300006B5B /* web_hi_res_512.png in Resources */,
 				3F3768E423A2214700BABC3A /* Assets.xcassets in Resources */,
 				3F3768E223A2214600BABC3A /* Main.storyboard in Resources */,
+				3F3768F523A228BD00BABC3A /* ic_launcher.png in Resources */,
+				3F3768F723A22BC000BABC3A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +250,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -286,13 +317,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQ66Z73T68;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KCPT-IOS/Analytics",
+					"$(PROJECT_DIR)/KCPT-IOS/Auth",
+					"$(PROJECT_DIR)/KCPT-IOS/Database",
+				);
 				INFOPLIST_FILE = "KCPT-IOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.team.sear.KCPT-IOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "КЦПТ";
+				"SWIFT_INSTALL_OBJC_HEADER[arch=*]" = YES;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Firebase.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,13 +343,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQ66Z73T68;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KCPT-IOS/Analytics",
+					"$(PROJECT_DIR)/KCPT-IOS/Auth",
+					"$(PROJECT_DIR)/KCPT-IOS/Database",
+				);
 				INFOPLIST_FILE = "KCPT-IOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.team.sear.KCPT-IOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "КЦПТ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
