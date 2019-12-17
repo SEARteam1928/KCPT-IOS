@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		3F3768E723A2214700BABC3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3768E523A2214700BABC3A /* LaunchScreen.storyboard */; };
 		3F3768F523A228BD00BABC3A /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3768F423A228BD00BABC3A /* ic_launcher.png */; };
 		3F3768F723A22BC000BABC3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3768F623A22BC000BABC3A /* GoogleService-Info.plist */; };
+		7548048DFF540AAB5E9B12C4 /* Pods_KCPT_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77C6503A21A8EB2970BB74C /* Pods_KCPT_IOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,8 +34,6 @@
 
 /* Begin PBXFileReference section */
 		3F1CCBA823A2566300006B5B /* web_hi_res_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_hi_res_512.png; sourceTree = "<group>"; };
-		3F1CCBD623A2574900006B5B /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
-		3F1CCBD723A2574C00006B5B /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		3F3768D723A2214600BABC3A /* КЦПТ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "КЦПТ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3768DA23A2214600BABC3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F3768DC23A2214600BABC3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +44,9 @@
 		3F3768E823A2214700BABC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3768F423A228BD00BABC3A /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		3F3768F623A22BC000BABC3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40FE3C398FD6B2609CB493BC /* Pods-KCPT-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCPT-IOS.release.xcconfig"; path = "Target Support Files/Pods-KCPT-IOS/Pods-KCPT-IOS.release.xcconfig"; sourceTree = "<group>"; };
+		E2F5C2A9DA4E93AB3ABA2F2A /* Pods-KCPT-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCPT-IOS.debug.xcconfig"; path = "Target Support Files/Pods-KCPT-IOS/Pods-KCPT-IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F77C6503A21A8EB2970BB74C /* Pods_KCPT_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCPT_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7548048DFF540AAB5E9B12C4 /* Pods_KCPT_IOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,10 +64,10 @@
 		3F3768CE23A2214600BABC3A = {
 			isa = PBXGroup;
 			children = (
-				3F1CCBD623A2574900006B5B /* Firebase.h */,
-				3F1CCBD723A2574C00006B5B /* module.modulemap */,
 				3F3768D923A2214600BABC3A /* KCPT-IOS */,
 				3F3768D823A2214600BABC3A /* Products */,
+				B0314733394659ED0E8DD639 /* Pods */,
+				EFCD2189F1F41B91389EB747 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +96,23 @@
 			path = "KCPT-IOS";
 			sourceTree = "<group>";
 		};
+		B0314733394659ED0E8DD639 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5C2A9DA4E93AB3ABA2F2A /* Pods-KCPT-IOS.debug.xcconfig */,
+				40FE3C398FD6B2609CB493BC /* Pods-KCPT-IOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFCD2189F1F41B91389EB747 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F77C6503A21A8EB2970BB74C /* Pods_KCPT_IOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,10 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F3768EB23A2214700BABC3A /* Build configuration list for PBXNativeTarget "KCPT-IOS" */;
 			buildPhases = (
+				9D027647D6EEB604935755A9 /* [CP] Check Pods Manifest.lock */,
 				3F3768D323A2214600BABC3A /* Sources */,
 				3F3768D423A2214600BABC3A /* Frameworks */,
 				3F3768D523A2214600BABC3A /* Resources */,
 				3FE7A0D423A23BDF00CBCA19 /* Embed Frameworks */,
+				05A73290356D947C1D567954 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,6 +184,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05A73290356D947C1D567954 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KCPT-IOS/Pods-KCPT-IOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KCPT-IOS/Pods-KCPT-IOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KCPT-IOS/Pods-KCPT-IOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D027647D6EEB604935755A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KCPT-IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F3768D323A2214600BABC3A /* Sources */ = {
@@ -313,6 +377,7 @@
 		};
 		3F3768EC23A2214700BABC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F5C2A9DA4E93AB3ABA2F2A /* Pods-KCPT-IOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -331,7 +396,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.team.sear.KCPT-IOS";
 				PRODUCT_NAME = "КЦПТ";
 				"SWIFT_INSTALL_OBJC_HEADER[arch=*]" = YES;
-				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Firebase.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,6 +403,7 @@
 		};
 		3F3768ED23A2214700BABC3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FE3C398FD6B2609CB493BC /* Pods-KCPT-IOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
