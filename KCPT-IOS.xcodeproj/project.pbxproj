@@ -16,6 +16,7 @@
 		3F3768E723A2214700BABC3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3768E523A2214700BABC3A /* LaunchScreen.storyboard */; };
 		3F3768F523A228BD00BABC3A /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3768F423A228BD00BABC3A /* ic_launcher.png */; };
 		3F3768F723A22BC000BABC3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3768F623A22BC000BABC3A /* GoogleService-Info.plist */; };
+		3FAB220D23AA090B004300C9 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB220C23AA090B004300C9 /* Lesson.swift */; };
 		7548048DFF540AAB5E9B12C4 /* Pods_KCPT_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77C6503A21A8EB2970BB74C /* Pods_KCPT_IOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		3F3768E823A2214700BABC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3768F423A228BD00BABC3A /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		3F3768F623A22BC000BABC3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FAB220C23AA090B004300C9 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
 		40FE3C398FD6B2609CB493BC /* Pods-KCPT-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCPT-IOS.release.xcconfig"; path = "Target Support Files/Pods-KCPT-IOS/Pods-KCPT-IOS.release.xcconfig"; sourceTree = "<group>"; };
 		E2F5C2A9DA4E93AB3ABA2F2A /* Pods-KCPT-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCPT-IOS.debug.xcconfig"; path = "Target Support Files/Pods-KCPT-IOS/Pods-KCPT-IOS.debug.xcconfig"; sourceTree = "<group>"; };
 		F77C6503A21A8EB2970BB74C /* Pods_KCPT_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCPT_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,7 @@
 				3F3768E323A2214700BABC3A /* Assets.xcassets */,
 				3F3768E523A2214700BABC3A /* LaunchScreen.storyboard */,
 				3F3768E823A2214700BABC3A /* Info.plist */,
+				3FAB220C23AA090B004300C9 /* Lesson.swift */,
 			);
 			path = "KCPT-IOS";
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				3F3768DF23A2214600BABC3A /* ViewController.swift in Sources */,
 				3F3768DB23A2214600BABC3A /* AppDelegate.swift in Sources */,
 				3F3768DD23A2214600BABC3A /* SceneDelegate.swift in Sources */,
+				3FAB220D23AA090B004300C9 /* Lesson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

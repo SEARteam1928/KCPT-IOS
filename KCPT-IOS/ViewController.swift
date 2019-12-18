@@ -23,10 +23,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
          ref = Database.database().reference()
         
-        ref.child("Учреждения").child("ГАПОУ ТО \"Колледж цифровых и педагогических технологий\"\"").child("Группы").child("SSA18112").observeSingleEvent(of: .value, with: { (snapshot) in
+        ref.child("Учреждения").child("ГАПОУ ТО \"Колледж цифровых и педагогических технологий\"\"").child("Расписание").child("ССА 18-11-2").child("Вторник").child("lesson005").observeSingleEvent(of: .value, with: { (snapshot) in
               // Get user value
-              let value = snapshot.value as? String
-            self.testLabel.text = value
+              let value = snapshot.value as? Lesson
               // ...
               }) { (error) in
                 print(error.localizedDescription)
